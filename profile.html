@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cyborg - gaming website using css</title>
+    <!-- css style seet  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- font awesome library  -->
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+<header>
+    <nav>
+    <div class="container  f-a-c">
+        <img src="imgs/logo.png" alt="logo-img" class="logo" id="home">
+
+        <label>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Type Something">
+        </label>
+
+        <label class="nav__btn">
+        <input type="checkbox">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-sort-up"></i>
+        </label>
+
+        <ul class="links  f-a-c">
+            <li><a href="index.html">home</a></li>
+            <li><a href="browse.html">browse</a></li>
+            <li><a href="details.html">details</a></li>
+            <li><a href="streams.html">streams</a></li>
+            <li><a href="profile.html" class="profile  f-a-c active">profile 
+            <img src="imgs/profile-header.jpg" alt="profile-header"></a></li>
+        </ul>
+    </div>
+    </nav>
+</header>
+
+<main class="profile">
+    <div class="container">
+        <section class="profile__hero">
+            <div class="profile__hero__header">
+                <div class="header">
+                    <div class="img"><img src="imgs/profile.jpg" alt="profile"></div>
+                <div class="info">
+                    <span>offline</span>
+                    <b>mostafa kayed</b>
+                    <p>You Haven't Gone Live yet. Go Live By Touching The Button Below.</p>
+                    <a href="#">start live stream</a>
+                </div>
+                <ul class="statics">
+                    <li><p>games downloaded</p> <span>3</span></li>
+                    <li><p>friends</p> <span>0</span></li>
+                    <li><p>live streams</p> <span>none</span></li>
+                    <li><p>clips</p> <span>29</span></li>
+                </ul>
+                </div>
+
+                <div class="clips">
+                    <h2 class="special__h2"><span>your most popular</span> clips</h2>
+                    <div class="clips__cntnt">
+                        <div class="clip">
+                            <div class="img">
+                                <img src="imgs/clip-01.jpg" alt="clips">
+                                <a href="https://www.youtube.com/watch?v=r1b03uKWk_M" target="_blank" class="vid__a"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                            <div class="info">
+                                <b>first clip</b>
+                                <span><i class="fa-solid fa-eye"></i> 250</span>
+                            </div>
+                        </div>
+
+                        <div class="clip">
+                            <div class="img">
+                                <img src="imgs/clip-02.jpg" alt="clips">
+                                <a href="https://www.youtube.com/watch?v=r1b03uKWk_M" target="_blank" class="vid__a"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                            <div class="info">
+                                <b>second clip</b>
+                                <span><i class="fa-solid fa-eye"></i> 187</span>
+                            </div>
+                        </div>
+
+                        <div class="clip">
+                            <div class="img">
+                                <img src="imgs/clip-03.jpg" alt="clips">
+                                <a href="https://www.youtube.com/watch?v=r1b03uKWk_M" target="_blank" class="vid__a"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                            <div class="info">
+                                <b>third clip</b>
+                                <span><i class="fa-solid fa-eye"></i> 1234</span>
+                            </div>
+                        </div>
+
+                        <div class="clip">
+                            <div class="img">
+                                <img src="imgs/clip-04.jpg" alt="clips">
+                                <a href="https://www.youtube.com/watch?v=r1b03uKWk_M" target="_blank" class="vid__a"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                            <div class="info">
+                                <b>fourth clip</b>
+                                <span><i class="fa-solid fa-eye"></i> 59</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="library profile__library">
+            <h2 class="special__h2"><span>your gaming</span> library</h2>
+            <div class="library__cntnt">
+              <div class="box">
+                <ul>
+                  <li><img src="imgs/game-01.jpg" alt="games"></li>
+                  <li>
+                    <b>dota 2</b>
+                    <p>sandbox</p>
+                  </li>
+                  <li>
+                    <b>date added</b>
+                    <p>24/08/2036</p>
+                  </li>
+                  <li>
+                    <b>hours played</b>
+                    <p>33 h 22 mins</p>
+                  </li>
+                  <li>
+                    <b>currently</b>
+                    <p>downloaded</p>
+                  </li>
+                  <li class="download">downloaded</li>
+                </ul>
+              </div>
+  
+              <div class="box">
+                <ul>
+                  <li><img src="imgs/game-02.jpg" alt="games"></li>
+                  <li>
+                    <b>dcs-Go</b>
+                    <p>sandbox</p>
+                  </li>
+                  <li>
+                    <b>date added</b>
+                    <p>24/08/2036</p>
+                  </li>
+                  <li>
+                    <b>hours played</b>
+                    <p>440 h 13 mins</p>
+                  </li>
+                  <li>
+                    <b>currently</b>
+                    <p>downloaded</p>
+                  </li>
+                  <li>downloaded</li>
+                </ul>
+              </div>
+  
+              <div class="box">
+                <ul>
+                  <li><img src="imgs/game-03.jpg" alt="games"></li>
+                  <li>
+                    <b>fortnite</b>
+                    <p>sandbox</p>
+                  </li>
+                  <li>
+                    <b>date added</b>
+                    <p>24/08/2036</p>
+                  </li>
+                  <li>
+                    <b>hours played</b>
+                    <p>303 h 2 mins</p>
+                  </li>
+                  <li>
+                    <b>currently</b>
+                    <p>downloaded</p>
+                  </li>
+                  <li class="download">downloaded</li>
+                </ul>
+              </div>
+  
+            </div>
+          </section>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <address>
+        Copyright © All rights reserved.<br/> design: <a href="https://github.com/kayed-code">kayed code</a><br/>
+        Design: <a href="https://templatemo.com/">TemplateMo</a>
+        </address>
+    </div>
+</footer>
+</body>

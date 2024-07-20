@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cyborg - gaming website using css</title>
+    <!-- css style seet  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- font awesome library  -->
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+<header>
+    <nav>
+    <div class="container  f-a-c">
+        <img src="imgs/logo.png" alt="logo-img" class="logo" id="home">
+
+        <label>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Type Something">
+        </label>
+
+        <label class="nav__btn">
+        <input type="checkbox">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-sort-up"></i>
+        </label>
+
+        <ul class="links  f-a-c">
+            <li><a href="index.html">home</a></li>
+            <li><a href="browse.html" class="active">browse</a></li>
+            <li><a href="details.html">details</a></li>
+            <li><a href="streams.html">streams</a></li>
+            <li><a href="profile.html" class="profile  f-a-c">profile 
+            <img src="imgs/profile-header.jpg" alt="profile-header"></a></li>
+        </ul>
+    </div>
+    </nav>
+</header>
+
+<main class="browse">
+    <div class="container">
+        <section class="browse__cntnt">
+            <div class="box box1">
+                <h1 class="special__h1"><span>featured</span> games</h1>
+                
+                <div class="box1__cntnt">
+                    <div class="item">
+                        <div class="img">
+                            <img src="imgs/featured-01.jpg" alt="featured">
+                            <p>2.4k streaming</p>
+                        </div>
+                        <div class="item__header f-a-c">
+                            <b>fortnite</b>
+                            <span>
+                            <i class="fa-solid fa-star"></i> 4.8
+                            </span>
+                        </div>
+                        <div class="item__footer f-a-c">
+                            <p>248k downloaded</p>
+                            <span>
+                            <i class="fa-solid fa-download"></i> 2.3m
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="img">
+                            <img src="imgs/featured-02.jpg" alt="featured">
+                            <p>2.4k streaming</p>
+                        </div>
+                        <div class="item__header f-a-c">
+                            <b>gamers</b>
+                            <span>
+                            <i class="fa-solid fa-star"></i> 4.8
+                            </span>
+                        </div>
+                        <div class="item__footer f-a-c">
+                            <p>248k downloaded</p>
+                            <span>
+                            <i class="fa-solid fa-download"></i> 2.3m
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="img">
+                            <img src="imgs/featured-03.jpg" alt="featured">
+                            <p>2.4k streaming</p>
+                        </div>
+                        <div class="item__header f-a-c">
+                            <b>island rust</b>
+                            <span>
+                            <i class="fa-solid fa-star"></i> 4.8
+                            </span>
+                        </div>
+                        <div class="item__footer f-a-c">
+                            <p>248k downloaded</p>
+                            <span>
+                            <i class="fa-solid fa-download"></i> 2.3m
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box box2">
+                <h1 class="special__h1"><span>Top</span> Downloaded</h1>
+                
+                <div class="box2__items">
+                    <div class="item  f-a-c">
+                        <img src="imgs/game-01.jpg" alt="game">
+                        <div class="info">
+                            <b>fortnite</b>
+                            <p>sandbox</p>
+                            <span>
+                            <span class="star"><i class="fa-solid fa-star"></i> 4.8</span>
+                            <span class="download"><i class="fa-solid fa-download"></i> 2.3m</span>
+                            </span>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-download"></i></a>
+                    </div>
+
+                    <div class="item  f-a-c">
+                        <img src="imgs/game-02.jpg" alt="game">
+                        <div class="info">
+                            <b>pubg</b>
+                            <p>battlefield</p>
+                            <span>
+                            <span class="star"><i class="fa-solid fa-star"></i> 4.8</span>
+                            <span class="download"><i class="fa-solid fa-download"></i> 2.3m</span>
+                            </span>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-download"></i></a>
+                    </div>
+
+                    <div class="item  f-a-c">
+                        <img src="imgs/game-03.jpg" alt="game">
+                        <div class="info">
+                            <b>cs-Co</b>
+                            <p>legendary</p>
+                            <span>
+                            <span class="star"><i class="fa-solid fa-star"></i> 4.8</span>
+                            <span class="download"><i class="fa-solid fa-download"></i> 2.3m</span>
+                            </span>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-download"></i></a>
+                    </div>
+                </div>
+                <a href="#">browse all games</a>
+            </div>
+        </section>
+
+        <section class="stream">
+            <h2 class="special__h2"><span>How To Start Your</span> Live Stream</h2>
+            <div class="stream__cntnt">
+                <div class="box">
+                    <img src="imgs/service-01.jpg" alt="service">
+                    <b>Go To Your Profile</b>
+                    <p>Cyborg Gaming is free HTML CSS website template provided by TemplateMo. This is Bootstrap v5.2.0 layout.</p>
+                </div>
+
+                <div class="box">
+                    <img src="imgs/service-02.jpg" alt="service">
+                    <b>Live Stream Button</b>
+                    <p>If you wish to support us, you can make a <a href="#">small contribution via PayPal</a> to info [at] github.io/kayed-code</p>
+                </div>
+
+                <div class="box">
+                    <img src="imgs/service-03.jpg" alt="service">
+                    <b>You Are Live</b>
+                    <p>You are not allowed to redistribute this template's downloadable ZIP file on any other template collection website.</p>
+                </div>
+            </div>
+            <a href="profile.html">go to profile</a>
+        </section>
+
+        <section class="most__popular">
+            <h2 class="special__h2"><span>Most Popular</span> Live Stream</h2>
+            <div class="most__popular__cntnt">
+                <div class="box">
+                    <div class="img">
+                        <img src="imgs/stream-01.jpg" alt="stream">
+                        <a href="#">kive</a>
+                        <a href="#"><i class="fa-solid fa-eye"></i> 1.2k</a>
+                        <a href="#">cs-Go</a>
+                    </div>
+                    <div class="avatar f-a-c">
+                        <img src="imgs/avatar-01.jpg" alt="avatar">
+                        <p><i class="fa-solid fa-circle-check"></i> KenganC</p>
+                    </div>
+                    <h3>just talking with fans</h3>
+                </div>
+
+                <div class="box">
+                    <div class="img">
+                        <img src="imgs/stream-02.jpg" alt="stream">
+                        <a href="#">kive</a>
+                        <a href="#"><i class="fa-solid fa-eye"></i> 1.2k</a>
+                        <a href="#">cs-Go</a>
+                    </div>
+                    <div class="avatar f-a-c">
+                        <img src="imgs/avatar-01.jpg" alt="avatar">
+                        <p><i class="fa-solid fa-circle-check"></i> LunaMa</p>
+                    </div>
+                    <h3>CS-GO 36 Hours Live Stream</h3>
+                </div>
+
+                <div class="box">
+                    <div class="img">
+                        <img src="imgs/stream-03.jpg" alt="stream">
+                        <a href="#">kive</a>
+                        <a href="#"><i class="fa-solid fa-eye"></i> 1.2k</a>
+                        <a href="#">cs-Go</a>
+                    </div>
+                    <div class="avatar f-a-c">
+                        <img src="imgs/avatar-01.jpg" alt="avatar">
+                        <p><i class="fa-solid fa-circle-check"></i> Areluwa</p>
+                    </div>
+                    <h3>Maybe Nathej Allnight Chillin'</h3>
+                </div>
+
+                <div class="box">
+                    <div class="img">
+                        <img src="imgs/stream-04.jpg" alt="stream">
+                        <a href="#">kive</a>
+                        <a href="#"><i class="fa-solid fa-eye"></i> 1.2k</a>
+                        <a href="#">cs-Go</a>
+                    </div>
+                    <div class="avatar f-a-c">
+                        <img src="imgs/avatar-01.jpg" alt="avatar">
+                        <p><i class="fa-solid fa-circle-check"></i> GangTm</p>
+                    </div>
+                    <h3>Live Streaming Till Morning</h3>
+                </div>
+                <a href="streams.html">discover all streams</a>
+            </div>
+        </section>
+
+    </div>
+</main>
+<footer>
+    <div class="container">
+      <address>
+        Copyright © All rights reserved.<br/> design: <a href="https://github.com/kayed-code">kayed code</a><br/>
+        Design: <a href="https://templatemo.com/">TemplateMo</a>
+      </address>
+    </div>
+  </footer>
+
+</body>
+</html>

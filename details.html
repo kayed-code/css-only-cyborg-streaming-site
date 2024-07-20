@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cyborg - gaming website using css</title>
+    <!-- css style seet  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- font awesome library  -->
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+<header>
+    <nav>
+    <div class="container  f-a-c">
+        <img src="imgs/logo.png" alt="logo-img" class="logo" id="home">
+
+        <label>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Type Something">
+        </label>
+
+        <label class="nav__btn">
+        <input type="checkbox">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-sort-up"></i>
+        </label>
+
+        <ul class="links  f-a-c">
+            <li><a href="index.html">home</a></li>
+            <li><a href="browse.html">browse</a></li>
+            <li><a href="details.html" class="active">details</a></li>
+            <li><a href="streams.html">streams</a></li>
+            <li><a href="profile.html" class="profile  f-a-c">profile 
+            <img src="imgs/profile-header.jpg" alt="profile-header"></a></li>
+        </ul>
+    </div>
+    </nav>
+</header>
+
+<main class="details">
+    <div class="container">
+        <section class="details__hero">
+            <div class="details__hero__cntnt">
+                <div class="img"><img src="imgs/feature-left.jpg" alt="feature"></div>
+                <div class="img vid"> <a href="https://www.youtube.com/watch?v=r1b03uKWk_M" target="_blank" class="vid__a"><i class="fa-solid fa-play"></i></a>
+                    <img src="imgs/feature-right.jpg" alt="feature"></div>
+            </div>
+            <h1>FORTNITE DETAILS</h1>
+        </section>
+
+        <section class="fortnite">
+            <div class="fortnite__cntnt">
+                <div class="items">
+                    <div class="item">
+                        <div class="item__header">
+                            <b>island rust</b>
+                            <span>
+                            <i class="fa-solid fa-star"></i> 4.8
+                            </span>
+                        </div>
+                        <div class="item__footer f-a-c">
+                            <p>248k downloaded</p>
+                            <span>
+                            <i class="fa-solid fa-download"></i> 2.3m
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <span class="f-c"><i class="fa-solid fa-star"></i> 4.8</span>
+                        <span class="f-c"><i class="fa-solid fa-download"></i> 2.3m</span>
+                        <span class="f-c"><i class="fa-solid fa-server"></i> 1 TB</span>
+                        <span class="f-c"><i class="fa-solid fa-gamepad"></i> action</span>
+                    </div>
+                </div>
+                <div class="header">
+                    <img src="imgs/details-01.jpg" alt="details" loading="lazy">
+                    <img src="imgs/details-02.jpg" alt="details" loading="lazy">
+                    <img src="imgs/details-03.jpg" alt="details" loading="lazy">
+                </div>
+            </div>
+            <p>Cyborg Gaming is free HTML CSS website template provided by TemplateMo. 
+                This is Bootstrap v5.2.0 layout. You can make a <a href="#">small contribution via PayPal</a> to info 
+                [at] templatemo.com and thank you for supporting. If you want to get the PSD source files, 
+                please contact us. Lorem ipsum dolor sit consectetur es dispic dipiscingei elit, sed doers eiusmod lisum hored tempor.</p>
+            <a href="#">download fortnite now!</a>
+        </section>
+
+        <section class="other__games">
+            <h2 class="special__h2"><span>Other Related</span> Games</h2>
+            <div class="other__games__cntnt">
+                <div class="box">
+                    <img src="imgs/game-01.jpg" alt="game" loading="lazy">
+                    <div class="box__info">
+                        <div class="info__header  f-a-c">
+                            <b>dota 2</b>
+                            <span>
+                                <i class="fa-solid fa-star"></i> 4.8
+                            </span>
+                        </div>
+                        <div class="info__footer  f-a-c">
+                            <p>sandbox</p>
+                            <span>
+                                <i class="fa-solid fa-download"></i> 2.3m
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <img src="imgs/game-02.jpg" alt="game" loading="lazy">
+                    <div class="box__info">
+                        <div class="info__header  f-a-c">
+                            <b>dota 2</b>
+                            <span>
+                                <i class="fa-solid fa-star"></i> 4.8
+                            </span>
+                        </div>
+                        <div class="info__footer  f-a-c">
+                            <p>sandbox</p>
+                            <span>
+                                <i class="fa-solid fa-download"></i> 2.3m
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="imgs/game-03.jpg" alt="game" loading="lazy">
+                    <div class="box__info">
+                        <div class="info__header  f-a-c">
+                            <b>dota 2</b>
+                            <span>
+                                <i class="fa-solid fa-star"></i> 4.8
+                            </span>
+                        </div>
+                        <div class="info__footer  f-a-c">
+                            <p>sandbox</p>
+                            <span>
+                                <i class="fa-solid fa-download"></i> 2.3m
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <address>
+        Copyright © All rights reserved.<br/> design: <a href="https://github.com/kayed-code">kayed code</a><br/>
+        Design: <a href="https://templatemo.com/">TemplateMo</a>
+        </address>
+    </div>
+</footer>
+</body>
