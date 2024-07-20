@@ -1295,6 +1295,9 @@ main .hero__section {
     .profile .profile__hero .statics {
         width: 90%;
     }
+	.container {
+        padding: 10px !important;
+    }
 }
 /* ================ MAIN SOME FEATURE RESET ================ */
 main .hero__section {
